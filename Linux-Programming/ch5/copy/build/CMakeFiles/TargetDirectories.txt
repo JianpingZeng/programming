@@ -1,0 +1,2 @@
+/home/zeng/programming/Linux-Programming/ch5/copy/build/libcopy/CMakeFiles/libcopy.dir
+/home/zeng/programming/Linux-Programming/ch5/copy/build/src/CMakeFiles/cp.dir

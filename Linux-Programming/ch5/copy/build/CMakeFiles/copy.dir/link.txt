@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/copy.dir/main.c.o CMakeFiles/copy.dir/copy.c.o  -o copy -rdynamic 

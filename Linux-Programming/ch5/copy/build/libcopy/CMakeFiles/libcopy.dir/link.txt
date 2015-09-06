@@ -1,0 +1,2 @@
+/usr/bin/ar cq liblibcopy.a  CMakeFiles/libcopy.dir/copy.o
+/usr/bin/ranlib liblibcopy.a

@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/cp.dir/main.o  -o cp -rdynamic ../libcopy/liblibcopy.a 
