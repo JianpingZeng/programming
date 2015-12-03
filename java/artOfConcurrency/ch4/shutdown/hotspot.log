@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='18109' time_ms='1449043870110'>
+<vm_version>
+<name>
+OpenJDK 64-Bit Server VM
+</name>
+<release>
+24.0-b56-jvmg
+</release>
+<info>
+OpenJDK 64-Bit Server VM (24.0-b56-jvmg) for linux-amd64 JRE (1.7.0-internal-debug-zeng_2015_12_01_21_43-b00), built on Dec  1 2015 21:50:18 by &quot;zeng in hotspot&quot; with gcc 4.8.4
+</info>
+</vm_version>
+<vm_arguments>
+<command>
+Shutdown
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=24.0-b56-jvmg
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/usr/lib/jvm/openjdk1.7.0_04/jre/lib/ext:/usr/java/packages/lib/ext
+java.endorsed.dirs=/usr/lib/jvm/openjdk1.7.0_04/jre/lib/endorsed
+sun.boot.library.path=/usr/lib/jvm/openjdk1.7.0_04/jre/lib/amd64
+java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.home=/usr/lib/jvm/openjdk1.7.0_04/jre
+java.class.path=.:/usr/lib/jvm/jdk/lib:/usr/lib/jvm/jdk/jre/lib
+sun.boot.class.path=/usr/lib/jvm/openjdk1.7.0_04/jre/lib/resources.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/rt.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/sunrsasign.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/jsse.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/jce.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/charsets.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/jfr.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+sun.java.command=Shutdown
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='139999141472000'/>
+C1 Runtime statistics:
+ _resolve_invoke_virtual_cnt:     0
+ _resolve_invoke_opt_virtual_cnt: 4
+ _resolve_invoke_static_cnt:      0
+ _handle_wrong_method_cnt:        0
+ _ic_miss_cnt:                    0
+ _generic_arraycopy_cnt:          0
+ _generic_arraycopystub_cnt:      0
+ _byte_arraycopy_cnt:             0
+ _short_arraycopy_cnt:            0
+ _int_arraycopy_cnt:              0
+ _long_arraycopy_cnt:             0
+ _primitive_arraycopy_cnt:        0
+ _oop_arraycopy_cnt (C):          0
+ _oop_arraycopy_cnt (stub):       0
+ _arraycopy_slowcase_cnt:         0
+ _arraycopy_checkcast_cnt:        0
+ _arraycopy_checkcast_attempt_cnt:0
+ _new_type_array_slowcase_cnt:    0
+ _new_object_array_slowcase_cnt:  0
+ _new_instance_slowcase_cnt:      0
+ _new_multi_array_slowcase_cnt:   0
+ _monitorenter_slowcase_cnt:      0
+ _monitorexit_slowcase_cnt:       0
+ _patch_code_slowcase_cnt:        0
+ _throw_range_check_exception_count:            0:
+ _throw_index_exception_count:                  0:
+ _throw_div0_exception_count:                   0:
+ _throw_null_pointer_exception_count:           0:
+ _throw_class_cast_exception_count:             0:
+ _throw_incompatible_class_change_error_count:  0:
+ _throw_array_store_exception_count:            0:
+ _throw_count:                                  0:
+
+<statistics type='deoptimization'>
+Deoptimization traps recorded:
+     1 (100.0%) total
+            unloaded/reinterpret/getstatic: 1 (100.0%)
+</statistics>
+<statistics type='SharedRuntime'>
+    1 new instance requires GC
+    0 inline cache miss in compiled
+    0 wrong method
+    0 unresolved static call site
+    0 unresolved virtual call site
+    4 unresolved opt virtual call site
+    6 slow partial subtype
+   12 byte array copies
+   12 short array copies
+   12 int array copies
+   12 long array copies
+AdapterHandlerTable: empty 186 longest 3 total 133 average 1.242991
+AdapterHandlerTable: lookups 4737 buckets 5167 equals 4604 hits 4604 compact 4604
+</statistics>
+<statistics type='nmethod'>
+Statistics for 2 native nmethods:
+ N. total size  = 2064
+ N. relocation  = 216
+ N. main code   = 1264
+Statistics for 4 bytecoded nmethods:
+ total in heap  = 6696
+ relocation     = 384
+ main code      = 2176
+ stub code      = 272
+ oops           = 168
+ scopes data    = 600
+ scopes pcs     = 1424
+ dependencies   = 40
+ handler table  = 384
+ nul chk table  = 32
+Debug Data Chunks: 195, shared 31+45, non-SP&apos;s elided 13
+PcDesc Statistics:  16 queries, 7.25 comparisons per query
+  caches=4 queries=16/0, hits=0+3, tests=47+69, adds=13
+</statistics>
+<statistics type='opto'>
+--- Compiler Statistics ---
+Methods seen: 13  Methods parsed: 13  Nodes created: 4901
+Blocks parsed: 23  Blocks seen: 23
+39 original NULL checks - 29 elided (74%); optimizer leaves 24,
+2 made implicit ( 8%)
+CCP: 4  constants found: 0
+Total frameslots = 84, Max frameslots = 32
+Inserted 0 spill loads, 0 spill stores, 0 mem-mem moves and 0 copies.
+Total load cost=      0, store cost =      0, mem-mem cost =  0.00, copy cost =     0.
+Adjusted spill cost =       0.
+Conservatively coalesced 62 copies, 0 pairs, 16 post alloc.
+Used cisc instruction  0,  remained in register 4
+Average allocation trips 1.150000
+High Pressure Blocks = 0, Low Pressure Blocks = 0
+Nops added 0 bytes to total of 4081 bytes, for 0.00%
+Peephole: peephole rules applied: 0
+PhaseIdealLoop=28, sum _unique=11270
+</statistics>
+<statistics type='intrinsic'>
+Compiler intrinsic usage:
+     4 (57.1%) _isInterrupted (worked)
+     3 (42.9%) _currentThread (worked)
+     7 (100.0%) total (worked)
+</statistics>
+<writer thread='139998863431424'/>
+<destroy_vm stamp='2.736'/>
+<tty_done stamp='2.763'/>
+</tty>
+<hotspot_log_done stamp='2.763'/>
+</hotspot_log>

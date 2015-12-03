@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='12820' time_ms='1449042817975'>
+<vm_version>
+<name>
+OpenJDK 64-Bit Server VM
+</name>
+<release>
+24.0-b56-jvmg
+</release>
+<info>
+OpenJDK 64-Bit Server VM (24.0-b56-jvmg) for linux-amd64 JRE (1.7.0-internal-debug-zeng_2015_12_01_21_43-b00), built on Dec  1 2015 21:50:18 by &quot;zeng in hotspot&quot; with gcc 4.8.4
+</info>
+</vm_version>
+<vm_arguments>
+<command>
+shutdown.Shutdown
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=24.0-b56-jvmg
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/usr/lib/jvm/openjdk1.7.0_04/jre/lib/ext:/usr/java/packages/lib/ext
+java.endorsed.dirs=/usr/lib/jvm/openjdk1.7.0_04/jre/lib/endorsed
+sun.boot.library.path=/usr/lib/jvm/openjdk1.7.0_04/jre/lib/amd64
+java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.home=/usr/lib/jvm/openjdk1.7.0_04/jre
+java.class.path=.:/usr/lib/jvm/jdk/lib:/usr/lib/jvm/jdk/jre/lib
+sun.boot.class.path=/usr/lib/jvm/openjdk1.7.0_04/jre/lib/resources.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/rt.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/sunrsasign.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/jsse.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/jce.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/charsets.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/lib/jfr.jar:/usr/lib/jvm/openjdk1.7.0_04/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+sun.java.command=shutdown.Shutdown
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='140384970856192'/>
+C1 Runtime statistics:
+ _resolve_invoke_virtual_cnt:     0
+ _resolve_invoke_opt_virtual_cnt: 0
+ _resolve_invoke_static_cnt:      0
+ _handle_wrong_method_cnt:        0
+ _ic_miss_cnt:                    0
+ _generic_arraycopy_cnt:          0
+ _generic_arraycopystub_cnt:      0
+ _byte_arraycopy_cnt:             0
+ _short_arraycopy_cnt:            0
+ _int_arraycopy_cnt:              0
+ _long_arraycopy_cnt:             0
+ _primitive_arraycopy_cnt:        0
+ _oop_arraycopy_cnt (C):          0
+ _oop_arraycopy_cnt (stub):       0
+ _arraycopy_slowcase_cnt:         0
+ _arraycopy_checkcast_cnt:        0
+ _arraycopy_checkcast_attempt_cnt:0
+ _new_type_array_slowcase_cnt:    0
+ _new_object_array_slowcase_cnt:  0
+ _new_instance_slowcase_cnt:      0
+ _new_multi_array_slowcase_cnt:   0
+ _monitorenter_slowcase_cnt:      0
+ _monitorexit_slowcase_cnt:       0
+ _patch_code_slowcase_cnt:        0
+ _throw_range_check_exception_count:            0:
+ _throw_index_exception_count:                  0:
+ _throw_div0_exception_count:                   0:
+ _throw_null_pointer_exception_count:           0:
+ _throw_class_cast_exception_count:             0:
+ _throw_incompatible_class_change_error_count:  0:
+ _throw_array_store_exception_count:            0:
+ _throw_count:                                  0:
+
+<statistics type='SharedRuntime'>
+    0 inline cache miss in compiled
+    0 wrong method
+    0 unresolved static call site
+    0 unresolved virtual call site
+    0 unresolved opt virtual call site
+    5 slow partial subtype
+   12 byte array copies
+   12 short array copies
+   12 int array copies
+   12 long array copies
+AdapterHandlerTable: empty 187 longest 3 total 133 average 1.254717
+AdapterHandlerTable: lookups 4743 buckets 5122 equals 4610 hits 4610 compact 4610
+</statistics>
+<statistics type='nmethod'>
+Debug Data Chunks: 0, shared 0+0, non-SP&apos;s elided 0
+PcDesc Statistics:  0 queries, -nan comparisons per query
+  caches=0 queries=0/0, hits=0+0, tests=0+0, adds=0
+</statistics>
+<statistics type='opto'>
+--- Compiler Statistics ---
+Methods seen: 0  Methods parsed: 0  Nodes created: 0
+Blocks parsed: 0  Blocks seen: 0
+CCP: 0  constants found: 0
+Total frameslots = 0, Max frameslots = 0
+Nops added 0 bytes to total of 0 bytes
+Peephole: peephole rules applied: 0
+PhaseIdealLoop=0, sum _unique=0
+</statistics>
+<writer thread='140384691791616'/>
+<destroy_vm stamp='0.726'/>
+<tty_done stamp='0.751'/>
+</tty>
+<hotspot_log_done stamp='0.751'/>
+</hotspot_log>
